@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Number to Chinese Simplified Numerals</title>
+		<style type="text/css">
+			body{margin:0px; padding:0px;}
+			div{margin: 20px auto; width:900px;}
+			#output_text{color:red}
+		</style>
+	</head>
+	<body>
+		<div>
+			input a integer or long integer:<input type="text" id="number_input" value=""/>
+		</div>
+		<div>
+			translate text: <span id="output_text"></span>
+		</div>
+		<script type="text/javascript" src="../Num2CNCharacter.js"></script>
+		<script type="text/javascript">
+			(function(){
+				var d = document;
+				var originalNumObj = d.getElementById("number_input");
+				originalNumObj.addEventListener("change",function(e){
+					var val = originalNumObj.value;
+					var result = Num2CNCharacter.translate(val);
+					d.getElementById("output_text").innerHTML = result;
+				},false);
+			})();
+		</script>
+	</body>
+</html>
