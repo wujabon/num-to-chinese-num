@@ -4,6 +4,7 @@ Translate a num(integer or long integer) to Simplified Chinese numerals.
 <script type="text/javascript" src="../Num2CNCharacter.js"></script>
 2.This function accept a num, it will parse to an integer, an return a string:
 var result = Num2CNCharacter.translate(val);
+
 3.E.g:
 <script type="text/javascript">
      (function(){
@@ -23,6 +24,7 @@ var result = Num2CNCharacter.translate(val);
 <script type="text/javascript" src="../Num2CNCharacter.js"></script>
 2.传入一个数字，计算后将返回一个字符串：
 var result = Num2CNCharacter.translate(val);
+
 3.整体如下：
 <script type="text/javascript">
      (function(){
