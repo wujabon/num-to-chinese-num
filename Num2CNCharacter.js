@@ -74,11 +74,7 @@ var Num2CNCharacter = {
 				var a = numStr.charAt(i);
 				index--;
 				if(preIsZero && a == '0') continue;
-				if(a == '0') {
-					preIsZero = true;
-				}else {
-					false;
-				}
+				preIsZero = (a == '0');
 				retNum += this.nums[parseInt(a)];
 				if(index >= 0 && a != '0') {
 					retNum += this.unit[index];
