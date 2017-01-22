@@ -21,7 +21,7 @@ var result = Num2CNCharacter.translate(val);
 			})();
 &lt;/script&gt;
 
-4.Example in the folder 'demo/num2CNCharacter.jsp'.
+4.Example in the folder 'demo/num2CNCharacter.html'.
 
 将一个正整数转换为简体中文大写的类。
 1.引入该js：
@@ -45,4 +45,4 @@ var result = Num2CNCharacter.translate(val);
 				},false);
 			})();
 &lt;/script&gt;
-4.示例在：demo/num2CNCharacter.jsp中
+4.示例在：demo/num2CNCharacter.html中
